@@ -11,8 +11,8 @@ module.exports = {
 		disableHostCheck: true,
 		inline: true,
 		contentBase: './dist',
-		port: 3000
-		//host:'172.31.24.21'
+		port: 3000,
+		host:'172.31.24.21'
 	},
 	module: {
 		loaders: [
