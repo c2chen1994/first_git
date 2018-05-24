@@ -8,6 +8,7 @@ module.exports = {
 		publicPath: "assets"
 	},
 	devServer: {
+		disableHostCheck: true,
 		inline: true,
 		contentBase: './dist',
 		port: 3000,
